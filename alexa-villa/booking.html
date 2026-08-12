@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <nav class="child1">
+     <div>
+           <h1>ALEXA VILLA</h1>
+           <img src="./image/Alexa.jpeg" alt="" width="15">
+     </div>
+    <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <!-- <li><a href="villa.html">VILLA</a></li> -->
+            <li><a href="gallery.html">GALLERY</a></li>
+            <!-- <li><a href="experience.html">EXPERIENCE</a></li> -->
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="booking.html" class="book-btn">book now</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+    <form class="booking-form">
+        <h2>Book Your Stay</h2>
+        <p>Complete the form below to reserve your room.</p>
+
+        <div class="row">
+            <div class="input-box">
+                <label>First Name</label>
+                <input type="text" placeholder="John" required>
+            </div>
+
+            <div class="input-box">
+                <label>Last Name</label>
+                <input type="text" placeholder="Doe" required>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-box">
+                <label>Email Address</label>
+                <input type="email" placeholder="example@gmail.com" required>
+            </div>
+
+            <div class="input-box">
+                <label>Phone Number</label>
+                <input type="tel" placeholder="+234 800 000 0000" required>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-box">
+                <label>Check-In</label>
+                <input type="date" required>
+            </div>
+
+            
+
+            <div class="input-box">
+                <label>Check-Out</label>
+                <input type="date" required>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-box">
+                <label>Guests</label>
+                <select required>
+                    <option>Select Guests</option>
+                    <option>1 Guest</option>
+                    <option>2 Guests</option>
+                    <option>3 Guests</option>
+                    <option>4 Guests</option>
+                    <option>5+ Guests</option>
+                </select>
+            </div>
+
+            <div class="input-box">
+                <label>Room Type</label>
+                <select required>
+                    <option>Select Room</option>
+                    <option>Standard Room</option>
+                    <option>Deluxe Room</option>
+                    <option>Executive Suite</option>
+                    <option>Family Suite</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="input-box">
+            <label>Special Request</label>
+            <textarea placeholder="Write any special request here..."></textarea>
+        </div>
+
+        <button type="submit">Book Now</button>
+
+    </form>
+</div> 
+
+<div class="footer-bottom">
+    <p>&copy; 2026 Alexa Villa. All rights reserved.</p>
+     <a href="https://wa.me/2348020954027/" target="_blank">Contact us on WhatsApp</a>
+    </div>
+</body>
+</html>
